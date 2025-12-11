@@ -1,0 +1,22 @@
+[project]
+name = "trading-platform-portfolio"
+version = "0.1.0"
+description = "포트폴리오 검증 & 최적화"
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.13.0",
+    "supabase>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "loguru>=0.7.0",
+    "pydantic>=2.0.0",
+    "jupyterlab>=4.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
